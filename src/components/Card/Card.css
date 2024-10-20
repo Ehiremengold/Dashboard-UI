@@ -1,0 +1,40 @@
+.card {
+  margin: 2rem 0;
+  border-radius: 10px;
+  padding: 2rem;
+  background-color: var(--secondary-color);
+}
+.card img{
+  width: 100%;
+}
+.card-balance {
+  margin: 2rem 0;
+}
+
+.card-balance p {
+  color: rgb(196, 195, 195);
+  font-size: 14px;
+}
+.manage-transfer {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.manage-transfer div {
+  flex: 1;
+  display: flex;
+  place-content: center;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+}
+.manage {
+  background-color: var(--accent-color);
+  border: none;
+}
+
+.transfer {
+  background-color: transparent;
+  border: 1px solid white;
+}

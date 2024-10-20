@@ -1,0 +1,59 @@
+.flow {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.flow-box {
+  border-radius: 10px;
+  padding: 1.5rem;
+  background-color: var(--secondary-color);
+  display: flex;
+  gap: 1.5rem;
+}
+
+.outcome-icon,
+.income-icon {
+  display: grid;
+  place-content: center;
+  padding: 0.3rem 1.5rem;
+  border-radius: 8px;
+}
+
+.income-icon {
+  background-color: #64cff6;
+}
+
+.outcome-icon {
+  background-color: var(--accent-color);
+}
+
+.outcome-fig p,
+.income-fig p {
+  font-weight: 300;
+  color: rgb(196, 195, 195);
+}
+
+.flow-box .rate {
+  align-self: flex-end;
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+
+.flow-box.income .rate {
+  background-color: rgba(2, 177, 90, 0.2);
+}
+
+.flow-box.outcome .rate {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.flow-box.income .rate p {
+  font-size: 13px;
+  color: #02b15a;
+}
+
+.flow-box.outcome .rate p {
+  font-size: 13px;
+  color: red;
+}

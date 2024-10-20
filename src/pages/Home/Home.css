@@ -1,0 +1,28 @@
+.wrapper {
+  width: 75%;
+  /* border: 1px solid red; */
+  margin-left: 23%;
+  padding-top: 30px;
+}
+
+.body-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.center-body {
+  display: grid;
+  /* border: 1px solid saddlebrown; */
+  width: 100%;
+}
+
+.right-body {
+  /* border: 1px solid green; */
+  width: 100%;
+}
+
+.analytics-container {
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  padding: 2rem;
+}

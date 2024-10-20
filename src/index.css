@@ -1,0 +1,44 @@
+:root {
+  --primary-color: #141332;
+  --secondary-color: #1d1d41;
+  --accent-color: #6359e9;
+  --primary-text: clamp(18px, 1.3vw, 30px);
+  --primary-text-weight: 500;
+  --secondary-text: clamp(14px, 1vw, 25px);
+  --secondary-text-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  width: 2000px;
+  margin-inline: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+input {
+  font-family: "Poppins";
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

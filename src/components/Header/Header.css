@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input {
+  background-color: #3a3a62;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  width: 30%;
+  padding: 0.6rem 1rem;
+  outline: none;
+  background-image: url("../../assets/icons/search.svg");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+}
+
+input::placeholder {
+  color: #fff;
+}
+.auth-intro p {
+  color: rgb(196, 195, 195);
+  font-weight: var(--secondary-text-weight);
+}

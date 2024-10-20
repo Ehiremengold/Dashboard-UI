@@ -1,0 +1,58 @@
+.transactions {
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.transactions .section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-header input {
+  background-color: #3a3a62;
+}
+
+.table-head {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Optional: Add a bottom border */
+  padding-bottom: 0.5rem; /* Spacing below the headers */
+}
+
+.transaction-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+  padding: 0.5rem 0; /* Padding for better spacing */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Optional: Add a bottom border for rows */
+}
+
+.img-company {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.img-container {
+  display: grid;
+  place-content: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.transaction-row p {
+  flex: 1; /* Allows each p element to grow equally */
+  text-align: center; /* Center align text within the columns */
+}
+
+p.date {
+  align-self: center; /* Center align date */
+}

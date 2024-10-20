@@ -1,0 +1,6 @@
+main {
+  background-color: var(--primary-color);
+  height: 100%;
+  padding-bottom: 5rem;
+  color: #fff;
+}

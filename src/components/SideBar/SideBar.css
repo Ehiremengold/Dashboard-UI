@@ -1,0 +1,39 @@
+.side-bar {
+  position: fixed;
+  height: 100vh;
+  width: 20%;
+  background-color: var(--secondary-color);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 3rem 1rem 2rem 1.5rem;
+}
+
+.action-items {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.icon-item-name {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.icon-item-name:hover{
+  background-color:rgba(132, 125, 242, 0.2);
+}
+
+.icon-item-name.active {
+  font-weight: 500;
+  background-color: var(--accent-color);
+  border-radius: 10px;
+}
+
+hr{
+  color: #4B4B99;
+}
